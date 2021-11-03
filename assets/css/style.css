@@ -1,15 +1,13 @@
+/* ALL BOXES */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.flex-row {
-    display:flex;
-}
 
+/* BODY STYLE */
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
@@ -40,7 +38,7 @@ header nav {
     margin: 7px 0;
  }
  
- header nav ul {
+header nav ul {
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
@@ -55,13 +53,13 @@ header nav {
     font-size: 1.55vw;
 }
 
-
+/* ALL SECTION TAGS STYLE */
  section {
      padding: 60px;
  }
  
 
- /* Hero */
+ /* HERO STYLES*/
  .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -92,8 +90,6 @@ header nav {
     background-color: #fce138;
     padding: 20px;
     color: #024e76;
-    border-width: 3px;
-    border-color: #024e76;
     border: 3px solid  #024e76;
     width: 40%;
     margin: 3.5%;
@@ -197,7 +193,10 @@ header nav {
     color: #024e76;
 }
 
+/* WHAT WE DO SECTION ENDS */
 
+
+/* SECTION TITLE STYLES */
 
 .section-title {
     font-size: 55px;
@@ -206,6 +205,7 @@ header nav {
     margin: 0 auto 35px auto;
     width: 50%;
     padding-bottom: 20px;
+    border-bottom: 3px solid;
 
 }
 .primary-border {
@@ -214,6 +214,8 @@ header nav {
 .secondary-border {
     border-color: #39a6b2;
 }
+/* SECTION TITLE STYLES ENDS*/
+
 
 /* MEET THE TRAINER SECTION */
 
@@ -260,14 +262,17 @@ font-size: 28px;
     font-size: 17px;
     
 }
+/* MEET the trainers ends */
 
-.trainer-name
 
-
-/* REACH OUT STYLES START*/
+/* REACH OUT STYLES */
 .contact {
    
     background: #024e76;
+}
+
+.contact h2 {
+    color: #fce138;
 }
 
 .contact-info {
@@ -281,9 +286,7 @@ font-size: 28px;
     margin: 15px;
 
 }
-.contact h2 {
-    color: #fce138;
-}
+
 
 .contact-info iframe {
     
@@ -332,7 +335,10 @@ font-size: 28px;
 .contact-info a {
     color: #fce138;
 }
-/*footer*/
+
+/* REACH OUT SECTION ENDS */
+
+/* FOOTER */
 
 footer {
     background-color: #fce138;
@@ -359,3 +365,4 @@ footer {
  footer a {
      color: #024e76;;
  }
+/* FOOTER ENDS */
